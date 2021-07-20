@@ -1,2 +1,2 @@
 # VIP sEATs
-VIP sEATS - Event food and beverage ordering application. 
+VIP sEATs - Event food and beverage ordering application. 
