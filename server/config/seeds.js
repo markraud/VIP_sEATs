@@ -20,7 +20,7 @@ db.once('open', async () => {
     {
       name: 'Hot-Dog',
       description:
-        'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+        'Thick and juicy frank on a bun. Relish, ketchup, and mustard available in packets.',
       image: 'cookie-tin.jpg',
       category: categories[0]._id,
       price: 6.50,
@@ -66,7 +66,7 @@ db.once('open', async () => {
       name: 'Coke',
       category: categories[1]._id,
       description:
-        'Donec volutpat erat erat, sit amet gravida justo sodales in. Phasellus tempus euismod urna. Proin ultrices nisi ut ipsum congue, vitae porttitor libero suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia a nisi non congue.',
+        'The ultimate refreshing carbonated soft drink manufactured by the Coca-Cola Company with only 140 calories per can.',
       image: 'toilet-paper.jpg',
       price: 4.50,
       quantity: 20
@@ -75,7 +75,7 @@ db.once('open', async () => {
       name: 'Diet Coke',
       category: categories[1]._id,
       description:
-        'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
+        'The perfect go to drink that offers the same great refreshing taste of Coca Cola with no sugar and no calories.',
       image: 'soap.jpg',
       price: 4.50,
       quantity: 50
@@ -84,7 +84,7 @@ db.once('open', async () => {
       name: 'Sprite',
       category: categories[1]._id,
       description:
-        'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
+        'Lemon-lime carbonated drink with a crisp taste making it the ultimate refreshment with only 192 calories per can.',
       image: 'wooden-spoons.jpg',
       price: 4.50,
       quantity: 100
@@ -93,7 +93,7 @@ db.once('open', async () => {
     name: 'Bottle Water',
     category: categories[1]._id,
     description:
-      'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
+      'Plain old fashion refreshing H20. Same great taste with no calories!',
     image: 'wooden-spoons.jpg',
     price: 4.00,
     quantity: 100
@@ -102,7 +102,7 @@ db.once('open', async () => {
       name: 'Coors Light',
       category: categories[2]._id,
       description:
-        'Vestibulum risus metus, luctus non tortor quis, tincidunt consectetur ex. Nullam vitae lobortis ligula, ut sagittis massa. Curabitur consectetur, tellus at pulvinar venenatis, erat augue cursus erat, eu ullamcorper eros lectus ultrices ipsum. Integer rutrum, augue vitae auctor venenatis, turpis turpis elementum orci, at sagittis risus mi a leo.',
+        'Crisp, clean and refreshing, Coors Light is an American-style light lager beer. This light beer has 4.2% ABV, 102 calories and 5 grams of carbs per 12-ounce serving. Full of Rocky Mountain refreshment, this light-calorie beer provides a light body with clean malt notes and low bitterness.',
       image: 'camera.jpg',
       price: 7.25,
       quantity: 100
@@ -111,7 +111,7 @@ db.once('open', async () => {
       name: 'Bud Light',
       category: categories[2]._id,
       description:
-        'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
+        'Introduced in 1982, Bud Light is a premium light lager with a superior drinkability that has made it the best-selling and most popular beer in the United States. ... The light-bodied beer features a fresh, clean and subtle hop aroma, delicate malt sweetness and a crisp finish that delivers the ultimate refreshment.',
       image: 'tablet.jpg',
       price: 7.25,
       quantity: 100
