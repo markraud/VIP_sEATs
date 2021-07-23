@@ -36,12 +36,13 @@ h5,
 h6 {
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
-  margin: 5px 0;
+  margin: 15px 0;
   line-height: 1.25;
 }
 
 h1 {
   font-size: 2.25rem;
+  margin-top: 15px;
 }
 
 h2 {
@@ -73,6 +74,7 @@ a {
   color: var(--tertiary);
   text-decoration: none;
   font-weight: bold;
+  
 }
 
 a:hover {
@@ -85,18 +87,20 @@ header {
 
 header a {
   color: var(--light);
+  color: rgb(248, 69, 69);
 }
 
 button {
-  font-size: 1rem;
+  font-size: 25px;
   text-decoration: none;
   padding: 0.25rem 1rem;
   border-radius: .5rem;
   border: none;
   outline: none;
   cursor: pointer;
-  margin: 0 1px;
-  background-color: var(--secondary);
+  margin: 0 10px;
+  background-color: rgb(248, 69, 69);
+  color: var(--primary)
 }
 
 button:hover {
@@ -108,12 +112,18 @@ button[disabled] {
   opacity: .8;
 }
 
+nav {
+  margin-top: 15px;
+  width: 100%
+  
+}
 img {
   max-width: 100%;
 }
 
 span[role="img"] {
   cursor: default;
+  margin-right: 15px;
 }
 
 form {
@@ -144,6 +154,7 @@ input:focus {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 45px;
 }
 
 .space-between {
