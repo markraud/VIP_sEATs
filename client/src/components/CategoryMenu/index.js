@@ -20,6 +20,7 @@ function CategoryMenu() {
       dispatch({
         type: UPDATE_CATEGORIES,
         categories: categoryData.categories,
+        currentCategory: null
       });
       categoryData.categories.forEach((category) => {
         idbPromise('categories', 'put', category);
@@ -29,6 +30,7 @@ function CategoryMenu() {
         dispatch({
           type: UPDATE_CATEGORIES,
           categories: categories,
+          currentCategory: null
         });
       });
     }
@@ -44,6 +46,14 @@ function CategoryMenu() {
   return (
     <div>
       <h2>Choose a Category:</h2>
+      <button
+          key={0}
+          onClick={() => {
+            handleClick(null);
+          }}
+        >
+          ALL
+        </button>
       {categories.map((item) => (
         <button
           key={item._id}

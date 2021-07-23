@@ -1,9 +1,11 @@
 import React from "react";
 import Auth from "../../utils/auth";
-import { Link } from "react-router-dom";
+import { Link, useHistory, useLocation} from "react-router-dom";
 
 function Nav() {
 
+  const history = useHistory()
+  const location = useLocation();
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
@@ -42,7 +44,11 @@ function Nav() {
   return (
     <header className="flex-row px-1">
       <h1>
-        <Link to="/">
+        <Link to="/" onClick={() => {
+              // history.go(0)
+              history.replace("/")
+              ///set the state.currentcategory to null
+        }}>
           <span role="img" aria-label="baseball">⚾</span>
           VIP sEATs
         </Link>

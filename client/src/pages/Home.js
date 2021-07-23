@@ -1,15 +1,12 @@
 import React from "react";
-import CategoryMenu from "../components/CategoryMenu";
-import ProductList from "../components/ProductList";
-import Cart from "../components/Cart";
+
+import { Link } from "react-router-dom"
 
 const Home = () => {
   return (
     <div className="container">
-     <CategoryMenu />
-     <ProductList />
-     <Cart />
-  
+      
+      <Link exact to="/itemsAll">Go to all items</Link>
     </div>
   );
 };
