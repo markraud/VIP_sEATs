@@ -2,6 +2,11 @@ import React from "react";
 import Auth from "../../utils/auth";
 import { Link, useHistory, useLocation} from "react-router-dom";
 
+
+import Form from 'react-bootstrap/Form';
+import './style.css';
+
+
 function Nav() {
 
   const history = useHistory()
@@ -21,7 +26,37 @@ function Nav() {
               Logout
             </a>
           </li>
+   
+          <li>
+          <Form.Select aria-label="Default select example">
+  <option>Select Section</option>
+  <option value="1">Section One</option>
+  <option value="2">Section Two</option>
+  <option value="3">Section Three</option>
+  <option value="4">Section Four</option>
+</Form.Select>
+</li>
+<li>
+          <Form.Select aria-label="Default select example">
+  <option>Select Row</option>
+  <option value="1">Row A</option>
+  <option value="2">Row B</option>
+  <option value="3">Row C</option>
+  <option value="4">Row D</option>
+</Form.Select>
+</li>
+<li>
+          <Form.Select aria-label="Default select example">
+  <option>Select Seat</option>
+  <option value="1">Seat 1</option>
+  <option value="2">Seat 2</option>
+  <option value="3">Seat 3</option>
+  <option value="4">Seat 4</option>
+</Form.Select>
+</li>
+          
         </ul>
+
       );
     } else {
       return (
