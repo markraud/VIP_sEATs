@@ -29,7 +29,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   font-size: 16px;
-  color: var(--dark);
+  color: var(--dark)
 }
 
 h1,
@@ -40,12 +40,13 @@ h5,
 h6 {
   font-family: "Rubik", sans-serif;
   font-weight: 500;
-  margin: 5px 0;
+  margin: 15px 0;
   line-height: 1.25;
 }
 
 h1 {
   font-size: 2.25rem;
+  margin-top: 15px;
 }
 
 h2 {
@@ -71,16 +72,20 @@ h6 {
 p {
   font-size: 1.1rem;
   margin-top: 0;
+  color: black
 }
 
 a {
-  color: var(--tertiary);
+  color: #f34141;
   text-decoration: none;
   font-weight: bold;
+  margin-left: 15px;
+  
 }
 
 a:hover {
   text-decoration: underline;
+  color: #f34141;
 }
 
 header {
@@ -88,19 +93,27 @@ header {
 }
 
 header a {
-  color: var(--light);
+  /* color: var(--light); */
+  color: var(--light)
+  ;
+}
+
+#backgroundImage {
+  background: url(./assets/backgroundstadium.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
 button {
-  font-size: 1rem;
+  font-size: 25px;
   text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: 0.5rem;
+  padding: 7px;
+  border-radius: 3.5rem;
   border: none;
   outline: none;
   cursor: pointer;
-  margin: 0 1px;
-  background-color: var(--secondary);
+  margin: 0 10px;
+  background-color: var(--primary);
+  color: white;
 }
 
 button:hover {
@@ -112,12 +125,18 @@ button[disabled] {
   opacity: 0.8;
 }
 
+nav {
+  margin-top: 15px;
+  width: 100%
+  
+}
 img {
   max-width: 100%;
 }
 
 span[role="img"] {
   cursor: default;
+  margin-right: 15px;
 }
 
 form {
@@ -138,6 +157,12 @@ input:focus {
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
 
+.form-select {
+  background-color: #f34141;
+  border: none;
+}
+
+
 .container {
   width: 85%;
   max-width: 1200px;
@@ -148,7 +173,7 @@ input:focus {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 35px;
+  margin-bottom: 45px;
 }
 
 .space-between {
