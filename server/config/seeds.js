@@ -20,7 +20,7 @@ db.once('open', async () => {
     {
       name: 'Hot-Dog',
       description:
-        'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+        'Thick and juicy frank on a bun. Relish, ketchup, and mustard available in packets.',
       image: 'cookie-tin.jpg',
       category: categories[0]._id,
       price: 6.50,
@@ -29,7 +29,7 @@ db.once('open', async () => {
     {
       name: 'Nachos',
       description:
-        'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
+        'Heated tortilla chips served with melted cheese, ground beef, and jalapeños.',
       image: 'canned-coffee.jpg',
       category: categories[0]._id,
       price: 7.99,
@@ -38,7 +38,7 @@ db.once('open', async () => {
     {
       name: 'Pizza',
       description:
-        'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
+        'Your favorite cheese pizza, with your choice of crust covered in classic marinara sauce and topped with gooey mozzarella cheese.',
       image: 'canned-coffee.jpg',
       category: categories[0]._id,
       price: 6.99,
@@ -47,7 +47,7 @@ db.once('open', async () => {
     {
       name: 'Burger',
       description:
-        'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
+        '100% beef patty on a sesame bun with all the toppings.',
       image: 'canned-coffee.jpg',
       category: categories[0]._id,
       price: 5.50,
@@ -56,7 +56,7 @@ db.once('open', async () => {
     {
       name: 'Fries',
       description:
-        'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
+        ' An original favorite and the one and only fry you’ll ever need in your life. Fried crisp and golden, each with its own little imperfections so you know they’re fresh, seasonally and locally sourced.',
       image: 'canned-coffee.jpg',
       category: categories[0]._id,
       price: 3.99,
@@ -66,7 +66,7 @@ db.once('open', async () => {
       name: 'Coke',
       category: categories[1]._id,
       description:
-        'Donec volutpat erat erat, sit amet gravida justo sodales in. Phasellus tempus euismod urna. Proin ultrices nisi ut ipsum congue, vitae porttitor libero suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia a nisi non congue.',
+        'The ultimate refreshing carbonated soft drink manufactured by the Coca-Cola Company with only 140 calories per can.',
       image: 'toilet-paper.jpg',
       price: 4.50,
       quantity: 20
@@ -75,7 +75,7 @@ db.once('open', async () => {
       name: 'Diet Coke',
       category: categories[1]._id,
       description:
-        'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
+        'The perfect go to drink that offers the same great refreshing taste of Coca Cola with no sugar and no calories.',
       image: 'soap.jpg',
       price: 4.50,
       quantity: 50
@@ -84,7 +84,7 @@ db.once('open', async () => {
       name: 'Sprite',
       category: categories[1]._id,
       description:
-        'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
+        'Lemon-lime carbonated drink with a crisp taste making it the ultimate refreshment with only 192 calories per can.',
       image: 'wooden-spoons.jpg',
       price: 4.50,
       quantity: 100
@@ -93,7 +93,7 @@ db.once('open', async () => {
     name: 'Bottle Water',
     category: categories[1]._id,
     description:
-      'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
+      'Plain old fashion refreshing H20. Same great taste with no calories!',
     image: 'wooden-spoons.jpg',
     price: 4.00,
     quantity: 100
@@ -102,7 +102,7 @@ db.once('open', async () => {
       name: 'Coors Light',
       category: categories[2]._id,
       description:
-        'Vestibulum risus metus, luctus non tortor quis, tincidunt consectetur ex. Nullam vitae lobortis ligula, ut sagittis massa. Curabitur consectetur, tellus at pulvinar venenatis, erat augue cursus erat, eu ullamcorper eros lectus ultrices ipsum. Integer rutrum, augue vitae auctor venenatis, turpis turpis elementum orci, at sagittis risus mi a leo.',
+        'Crisp, clean and refreshing, Coors Light is an American-style light lager beer. This light beer has 4.2% ABV, 102 calories and 5 grams of carbs per 12-ounce serving. Full of Rocky Mountain refreshment, this light-calorie beer provides a light body with clean malt notes and low bitterness.',
       image: 'camera.jpg',
       price: 7.25,
       quantity: 100
@@ -111,7 +111,7 @@ db.once('open', async () => {
       name: 'Bud Light',
       category: categories[2]._id,
       description:
-        'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
+        'Introduced in 1982, Bud Light is a premium light lager with a superior drinkability that has made it the best-selling and most popular beer in the United States. ... The light-bodied beer features a fresh, clean and subtle hop aroma, delicate malt sweetness and a crisp finish that delivers the ultimate refreshment.',
       image: 'tablet.jpg',
       price: 7.25,
       quantity: 100
@@ -120,7 +120,7 @@ db.once('open', async () => {
       name: 'Popcorn',
       category: categories[3]._id,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare diam quis eleifend rutrum. Aliquam nulla est, volutpat non enim nec, pharetra gravida augue. Donec vitae dictum neque. Pellentesque arcu lorem, fringilla non ligula ac, tristique bibendum erat. Ut a semper nibh. Quisque a mi et mi tempor ultricies. Maecenas eu ipsum eu enim hendrerit accumsan at euismod urna.',
+        'Rich, Buttery Goodness! Popcorn with the traditional butter flavor.',
       image: 'bedtime-book.jpg',
       price: 8.00,
       quantity: 100
@@ -129,7 +129,7 @@ db.once('open', async () => {
       name: 'Cotton Candy',
       category: categories[3]._id,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare diam quis eleifend rutrum. Aliquam nulla est, volutpat non enim nec, pharetra gravida augue. Donec vitae dictum neque. Pellentesque arcu lorem, fringilla non ligula ac, tristique bibendum erat. Ut a semper nibh. Quisque a mi et mi tempor ultricies. Maecenas eu ipsum eu enim hendrerit accumsan at euismod urna.',
+        'One bite of these puffy clouds of sugar floss, assorted cotton candy, will have your taste buds floating on cloud nine!  Available in pink or blue.',
       image: 'bedtime-book.jpg',
       price: 4.50,
       quantity: 100
@@ -146,7 +146,7 @@ db.once('open', async () => {
     {
       name: 'Baseball Hat',
       category: categories[4]._id,
-      description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
+      description: 'Enjoy a rich, sweet and creamy frozen ice cream.  3 delicious flavors to choose from...Vanilla, Chocolate and Strawberry.  Available in sugar and waffle cones or a 10 ounce bowl. ',
       image: 'spinning-top.jpg',
       price: 29.99,
       quantity: 1000
@@ -155,7 +155,7 @@ db.once('open', async () => {
       name: 'Foam-Finger',
       category: categories[4]._id,
       description:
-        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
+        'Show the visiting team who is Number 1 with this Colorado Rockies 16-inch foam hand! Our foam hands are just what you need to get you pumped up and cheering for your team.',
       image: 'plastic-horses.jpg',
       price: 15.00,
       quantity: 1000
@@ -164,7 +164,7 @@ db.once('open', async () => {
       name: 'Little-Bat',
       category: categories[4]._id,
       description:
-        'Vestibulum et erat finibus erat suscipit vulputate sed vitae dui. Ut laoreet tellus sit amet justo bibendum ultrices. Donec vitae felis vestibulum, congue augue eu, finibus turpis.',
+        'Colorado Rockies Team Mini Baseball Bat',
       image: 'teddy-bear.jpg',
       price: 17.99,
       quantity: 100
@@ -173,7 +173,7 @@ db.once('open', async () => {
       name: 'Baseball',
       category: categories[4]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+        'Colorado Rockies Fanatics Authentic Baseball Cube Logo Display Case.',
       image: 'alphabet-blocks.jpg',
       price: 17.99,
       quantity: 600
