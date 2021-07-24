@@ -23,18 +23,18 @@ function Nav() {
     if (Auth.loggedIn()) {
       return (
         <ul className="flex-row">
-          <li className="mx-1">
+          <ul className="mx-1">
             <Link to="/orderHistory">
               Order History
             </Link>
-          </li>
-          <li className="mx-1">
+          </ul>
+          <ul className="mx-1">
             {/* this is not using the Link component to logout or user and then refresh the application to the start */}
             <a href="/" onClick={() => Auth.logout()}>
               Logout
             </a>
-          </li>
-          <li>
+          </ul>
+          <ul>
           <Form.Select onChange={(e) => dispatch({type: ADD_SECTION, section: e.target.value})} aria-label="Default select example">
   <option>Select Section</option>
   <option value="S1">Section One</option>
@@ -42,8 +42,8 @@ function Nav() {
   <option value="S3">Section Three</option>
   <option value="S4">Section Four</option>
 </Form.Select>
-</li>
-<li>
+</ul>
+<ul>
           <Form.Select onChange={(e) => dispatch({type: ADD_ROW, row: e.target.value})} aria-label="Default select example">
   <option>Select Row</option>
   <option value="RA">Row A</option>
@@ -51,8 +51,8 @@ function Nav() {
   <option value="RC">Row C</option>
   <option value="RD">Row D</option>
 </Form.Select>
-</li>
-<li>
+</ul>
+<ul>
           <Form.Select onChange={(e) => dispatch({type: ADD_SEAT, seat: e.target.value})}aria-label="Default select example">
   <option>Select Seat</option>
   <option value="Seat1">Seat 1</option>
@@ -60,7 +60,7 @@ function Nav() {
   <option value="Seat3">Seat 3</option>
   <option value="Seat4">Seat 4</option>
 </Form.Select>
-</li>
+</ul>
           
         </ul>
 
