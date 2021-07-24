@@ -29,7 +29,7 @@ db.once('open', async () => {
     {
       name: 'Nachos',
       description:
-        'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
+        'Heated tortilla chips served with melted cheese, ground beef, and jalapeños.',
       image: 'canned-coffee.jpg',
       category: categories[0]._id,
       price: 7.99,
@@ -38,7 +38,7 @@ db.once('open', async () => {
     {
       name: 'Pizza',
       description:
-        'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
+        'Your favorite cheese pizza, with your choice of crust covered in classic marinara sauce and topped with gooey mozzarella cheese.',
       image: 'canned-coffee.jpg',
       category: categories[0]._id,
       price: 6.99,
@@ -47,7 +47,7 @@ db.once('open', async () => {
     {
       name: 'Burger',
       description:
-        'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
+        '100% beef patty on a sesame bun with all the toppings.',
       image: 'canned-coffee.jpg',
       category: categories[0]._id,
       price: 5.50,
@@ -56,7 +56,7 @@ db.once('open', async () => {
     {
       name: 'Fries',
       description:
-        'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
+        ' An original favorite and the one and only fry you’ll ever need in your life. Fried crisp and golden, each with its own little imperfections so you know they’re fresh, seasonally and locally sourced.',
       image: 'canned-coffee.jpg',
       category: categories[0]._id,
       price: 3.99,
@@ -120,7 +120,7 @@ db.once('open', async () => {
       name: 'Popcorn',
       category: categories[3]._id,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare diam quis eleifend rutrum. Aliquam nulla est, volutpat non enim nec, pharetra gravida augue. Donec vitae dictum neque. Pellentesque arcu lorem, fringilla non ligula ac, tristique bibendum erat. Ut a semper nibh. Quisque a mi et mi tempor ultricies. Maecenas eu ipsum eu enim hendrerit accumsan at euismod urna.',
+        'Rich, Buttery Goodness! Popcorn with the traditional butter flavor.',
       image: 'bedtime-book.jpg',
       price: 8.00,
       quantity: 100
@@ -129,7 +129,7 @@ db.once('open', async () => {
       name: 'Cotton Candy',
       category: categories[3]._id,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare diam quis eleifend rutrum. Aliquam nulla est, volutpat non enim nec, pharetra gravida augue. Donec vitae dictum neque. Pellentesque arcu lorem, fringilla non ligula ac, tristique bibendum erat. Ut a semper nibh. Quisque a mi et mi tempor ultricies. Maecenas eu ipsum eu enim hendrerit accumsan at euismod urna.',
+        'One bite of these puffy clouds of sugar floss, assorted cotton candy, will have your taste buds floating on cloud nine!  Available in pink or blue.',
       image: 'bedtime-book.jpg',
       price: 4.50,
       quantity: 100
@@ -146,7 +146,7 @@ db.once('open', async () => {
     {
       name: 'Baseball Hat',
       category: categories[4]._id,
-      description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
+      description: 'Enjoy a rich, sweet and creamy frozen ice cream.  3 delicious flavors to choose from...Vanilla, Chocolate and Strawberry.  Available in sugar and waffle cones or a 10 ounce bowl. ',
       image: 'spinning-top.jpg',
       price: 29.99,
       quantity: 1000
@@ -155,7 +155,7 @@ db.once('open', async () => {
       name: 'Foam-Finger',
       category: categories[4]._id,
       description:
-        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
+        'Show the visiting team who is Number 1 with this Colorado Rockies 16-inch foam hand! Our foam hands are just what you need to get you pumped up and cheering for your team.',
       image: 'plastic-horses.jpg',
       price: 15.00,
       quantity: 1000
@@ -164,7 +164,7 @@ db.once('open', async () => {
       name: 'Little-Bat',
       category: categories[4]._id,
       description:
-        'Vestibulum et erat finibus erat suscipit vulputate sed vitae dui. Ut laoreet tellus sit amet justo bibendum ultrices. Donec vitae felis vestibulum, congue augue eu, finibus turpis.',
+        'Colorado Rockies Team Mini Baseball Bat',
       image: 'teddy-bear.jpg',
       price: 17.99,
       quantity: 100
@@ -173,7 +173,7 @@ db.once('open', async () => {
       name: 'Baseball',
       category: categories[4]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+        'Colorado Rockies Fanatics Authentic Baseball Cube Logo Display Case.',
       image: 'alphabet-blocks.jpg',
       price: 17.99,
       quantity: 600

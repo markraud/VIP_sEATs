@@ -4,7 +4,7 @@ import { Link, useHistory, useLocation} from "react-router-dom";
 
 
 import Form from 'react-bootstrap/Form';
-import './style.css';
+// import './style.css';
 
 
 function Nav() {
