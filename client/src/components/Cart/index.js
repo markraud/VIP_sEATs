@@ -16,6 +16,10 @@ const Cart = () => {
   const [state, dispatch] = useStoreContext();
   const [getCheckout, { data }] = useLazyQuery(QUERY_CHECKOUT);
 
+useEffect(() => {
+  console.log(state.section)
+}, [state.section])
+
   // We check to see if there is a data object that exists, if so this means that a checkout session was returned from the backend
   // Then we should redirect to the checkout with a reference to our session id
   useEffect(() => {
@@ -94,7 +98,12 @@ const Cart = () => {
 
             {/* Check to see if the user is logged in. If so render a button to check out */}
             {Auth.loggedIn() ? (
-              <button onClick={submitCheckout}>Checkout</button>
+            
+              <div><button onClick={submitCheckout}>Checkout</button>
+              <h5>Section: {state.section}</h5>
+              <h5>Row: {state.row}</h5>
+              <h5>Seat: {state.seat}</h5>
+              </div>
             ) : (
               <span>(log in to check out)</span>
             )}
@@ -103,9 +112,9 @@ const Cart = () => {
       ) : (
         <h3>
           <span role="img" aria-label="shocked">
-            😱
+          ✋
           </span>
-          You haven't added anything to your cart yet!
+          Your cart is empty!
         </h3>
       )}
     </div>

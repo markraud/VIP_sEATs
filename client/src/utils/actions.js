@@ -1,5 +1,7 @@
 export const UPDATE_PRODUCTS = "UPDATE_PRODUCTS";
-
+export const ADD_ROW = "ADD_ROW";
+export const ADD_SEAT = "ADD_SEAT";
+export const ADD_SECTION = "ADD_SECTION";
 export const ADD_TO_CART = "ADD_TO_CART";
 export const ADD_MULTIPLE_TO_CART = "ADD_MULTIPLE_TO_CART";
 export const REMOVE_FROM_CART = "REMOVE_FROM_CART";

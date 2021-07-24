@@ -1,59 +1,66 @@
-import React from "react";
+import React, {useState} from "react";
 import Auth from "../../utils/auth";
 import { Link, useHistory, useLocation} from "react-router-dom";
+import {ADD_SECTION, ADD_ROW, ADD_SEAT} from "../../utils/actions";
 
 
 import Form from 'react-bootstrap/Form';
+import { useStoreContext } from "../../utils/GlobalState";
 // import './style.css';
 
+// function renderSeats() {
+//   var e = document.getElementById("");
+// var value=e.options[e.selectedIndex].value;// get selected option value
+// }
 
 function Nav() {
 
+  const [state, dispatch] = useStoreContext()
+
   const history = useHistory()
-  const location = useLocation();
+  // const location = useLocation();
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
         <ul className="flex-row">
-          <li className="mx-1">
+          <ul className="mx-1">
             <Link to="/orderHistory">
               Order History
             </Link>
-          </li>
-          <li className="mx-1">
+          </ul>
+          <ul className="mx-1">
             {/* this is not using the Link component to logout or user and then refresh the application to the start */}
             <a href="/" onClick={() => Auth.logout()}>
               Logout
             </a>
-          </li>
-   
-          <li>
-          <Form.Select aria-label="Default select example">
+          </ul>
+          <ul>
+          <Form.Select onChange={(e) => dispatch({type: ADD_SECTION, section: e.target.value})} aria-label="Default select example">
   <option>Select Section</option>
-  <option value="1">Section One</option>
-  <option value="2">Section Two</option>
-  <option value="3">Section Three</option>
-  <option value="4">Section Four</option>
+  <option value="S1">Section One</option>
+  <option value="S2">Section Two</option>
+  <option value="S3">Section Three</option>
+  <option value="S4">Section Four</option>
 </Form.Select>
-</li>
-<li>
-          <Form.Select aria-label="Default select example">
+</ul>
+<ul>
+          <Form.Select onChange={(e) => dispatch({type: ADD_ROW, row: e.target.value})} aria-label="Default select example">
   <option>Select Row</option>
-  <option value="1">Row A</option>
-  <option value="2">Row B</option>
-  <option value="3">Row C</option>
-  <option value="4">Row D</option>
+  <option value="RA">Row A</option>
+  <option value="RB">Row B</option>
+  <option value="RC">Row C</option>
+  <option value="RD">Row D</option>
 </Form.Select>
-</li>
-<li>
-          <Form.Select aria-label="Default select example">
+</ul>
+<ul>
+          <Form.Select onChange={(e) => dispatch({type: ADD_SEAT, seat: e.target.value})}aria-label="Default select example">
   <option>Select Seat</option>
-  <option value="1">Seat 1</option>
-  <option value="2">Seat 2</option>
-  <option value="3">Seat 3</option>
-  <option value="4">Seat 4</option>
+  <option value="Seat1">Seat 1</option>
+  <option value="Seat2">Seat 2</option>
+  <option value="Seat3">Seat 3</option>
+  <option value="Seat4">Seat 4</option>
 </Form.Select>
-</li>
+</ul>
           
         </ul>
 
@@ -61,16 +68,16 @@ function Nav() {
     } else {
       return (
         <ul className="flex-row">
-          <li className="mx-1">
+          <ul className="mx-1">
             <Link to="/signup">
               Signup
             </Link>
-          </li>
-          <li className="mx-1">
+          </ul>
+          <ul className="mx-1">
             <Link to="/login">
               Login
             </Link>
-          </li>
+          </ul>
         </ul>
       );
     }
