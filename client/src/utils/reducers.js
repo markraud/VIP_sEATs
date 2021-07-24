@@ -8,7 +8,10 @@ import {
   UPDATE_CATEGORIES,
   UPDATE_CURRENT_CATEGORY,
   CLEAR_CART,
-  TOGGLE_CART
+  TOGGLE_CART,
+  ADD_SECTION,
+  ADD_ROW,
+  ADD_SEAT
 } from "./actions";
 
 export const reducer = (state, action) => {
@@ -18,6 +21,24 @@ export const reducer = (state, action) => {
         ...state,
         products: [...action.products],
       };
+
+    case ADD_SECTION:
+      return {
+        ...state,
+        section: action.section
+      }
+
+      case ADD_SEAT:
+      return {
+        ...state,
+        seat: action.seat
+      }
+
+      case ADD_ROW:
+      return {
+        ...state,
+        row: action.row
+      }
 
     case ADD_TO_CART:
       return {
