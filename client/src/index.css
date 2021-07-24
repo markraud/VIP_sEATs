@@ -11,6 +11,8 @@
 
 * {
   box-sizing: border-box;
+  
+ 
 }
 nav {
   margin-top: 15px;
@@ -77,6 +79,8 @@ a {
   color: var(--tertiary);
   text-decoration: none;
   font-weight: bold;
+  
+  
 }
 
 a:hover {
@@ -89,6 +93,7 @@ header {
 
 header a {
   color: var(--light);
+  
 }
 
 button {
@@ -143,6 +148,10 @@ input:focus {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.logo {
+  font-family: 'Zen Tokyo Zoo', cursive;
 }
 
 .flex-row {
