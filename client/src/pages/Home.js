@@ -1,5 +1,6 @@
 import React from "react";
 
+
 import { Link } from "react-router-dom"
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <div className="container">
       
       <Link exact to="/itemsAll">Go to all items</Link>
+     
     </div>
   );
 };
