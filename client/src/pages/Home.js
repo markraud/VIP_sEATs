@@ -8,7 +8,7 @@ const Home = () => {
     <div className="container">
       
       <Link exact to="/itemsAll">Go to all items</Link>
-     
+      
     </div>
   );
 };

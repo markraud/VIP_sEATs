@@ -91,8 +91,10 @@ function Nav() {
               history.replace("/")
               ///set the state.currentcategory to null
         }}>
+          <div className='logo'>
           <span role="img" aria-label="baseball">⚾</span>
-          VIP sEATs
+         
+          VIP sEATs </div>
         </Link>
       </h1>
 
