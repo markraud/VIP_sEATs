@@ -81,11 +81,7 @@ a {
   color: #f34141;
   text-decoration: none;
   font-weight: bold;
-<<<<<<< HEAD
-  
-=======
   margin-left: 15px;
->>>>>>> main
   
 }
 
@@ -99,10 +95,6 @@ header {
 }
 
 header a {
-<<<<<<< HEAD
-  color: var(--light);
-  
-=======
   /* color: var(--light); */
   color: var(--light)
   ;
@@ -111,7 +103,6 @@ header a {
 #backgroundImage {
   background: url(./assets/backgroundstadium.jpg) no-repeat center center fixed;
   background-size: cover;
->>>>>>> main
 }
 
 button {
