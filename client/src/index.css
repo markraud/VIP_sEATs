@@ -238,3 +238,31 @@ input:focus {
     width: 100%;
   }
 }
+
+/* Janée additions */
+
+ /* #hometext {
+                font-size: 30px;
+
+ }
+
+                span{
+                    font-size: inherit;
+                    color: #9F52F2;
+                }
+                .ityped-cursor {
+                    animation: blink 1s infinite;
+                }
+                @keyframes blink {
+                    50%{
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: 0;
+                    }
+                  }
+                  @keyframes arrowBlink {
+                    100%{
+                    opacity: 0;
+                    }
+                } */
