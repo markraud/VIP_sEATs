@@ -8,7 +8,6 @@
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
 }
-
 * {
   box-sizing: border-box;
 }
@@ -16,12 +15,10 @@ nav {
   margin-top: 15px;
   width: 100%;
 }
-
 html,
 body {
   min-height: 100%;
 }
-
 body {
   margin: 0;
   padding: 0;
@@ -31,7 +28,6 @@ body {
   font-size: 16px;
   color: var(--dark);
 }
-
 h1,
 h2,
 h3,
@@ -43,64 +39,54 @@ h6 {
   margin: 15px 0;
   line-height: 1.25;
 }
-
 h1 {
   font-size: 2.25rem;
   margin-top: 15px;
 }
-
 h2 {
   font-size: 2rem;
 }
-
 h3 {
   font-size: 1.75rem;
 }
-
 h4 {
   font-size: 1.5rem;
 }
-
 h5 {
   font-size: 1.25rem;
 }
-
 h6 {
   font-size: 1rem;
 }
-
 p {
   font-size: 1.1rem;
   margin-top: 0;
   color: black;
 }
-
 a {
   color: #f34141;
   text-decoration: none;
   font-weight: bold;
   margin-left: 15px;
 }
-
+#back {
+  font-size: 30px;
+}
 a:hover {
   text-decoration: underline;
   color: #f34141;
 }
-
 header {
   background: var(--primary);
 }
-
 header a {
   /* color: var(--light); */
   color: var(--light);
 }
-
 #backgroundImage {
   background: url(./assets/backgroundstadium.jpg) no-repeat center center fixed;
   background-size: cover;
 }
-
 button {
   font-size: 25px;
   text-decoration: none;
@@ -113,16 +99,13 @@ button {
   background-color: var(--primary);
   color: white;
 }
-
 button:hover {
   opacity: 0.8;
 }
-
 button[disabled] {
   cursor: default;
   opacity: 0.8;
 }
-
 nav {
   margin-top: 15px;
   width: 100%;
@@ -130,16 +113,13 @@ nav {
 img {
   max-width: 100%;
 }
-
 span[role="img"] {
   cursor: default;
   margin-right: 15px;
 }
-
 form {
   width: 40%;
 }
-
 input {
   font-size: 1rem;
   padding: 0.25rem;
@@ -148,121 +128,88 @@ input {
   border-radius: 3px;
   transition: box-shadow 0.2s;
 }
-
 input:focus {
   border: 1px solid var(--secondary);
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
-
 .form-select {
   background-color: #f34141;
   border: none;
 }
-
 .container {
   width: 85%;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
-
 .logo {
   font-family: "Zen Tokyo Zoo", cursive;
 }
-
 .flex-row {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 45px;
 }
-
 .space-between {
   justify-content: space-between;
 }
-
 .flex-end {
   justify-content: flex-end;
 }
-
 .mx-1 {
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
 }
-
 .mx-2 {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
 }
-
 .my-1 {
   margin-top: var(--spacing-one);
   margin-bottom: var(--spacing-one);
 }
-
 .my-2 {
   margin-top: var(--spacing-two);
   margin-bottom: var(--spacing-two);
 }
-
 .px-1 {
   padding-right: var(--spacing-one);
   padding-left: var(--spacing-one);
 }
-
 .px-2 {
   padding-right: var(--spacing-two);
   padding-left: var(--spacing-two);
 }
-
 .py-1 {
   padding-top: var(--spacing-one);
   padding-bottom: var(--spacing-one);
 }
-
 .py-2 {
   padding-top: var(--spacing-two);
   padding-bottom: var(--spacing-two);
 }
-
 .card {
   width: 25%;
   text-align: center;
 }
-
 .error-text {
   color: var(--error);
 }
-
+#home {
+  font-size: 35px;
+  margin-left: 40%;
+  margin-top: 15%;
+  flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+#link{
+  font-size: 35px;
+}
 @media screen and (max-width: 768px) {
   .card {
     width: 100%;
   }
 }
-
-/* Janée additions */
-
- /* #hometext {
-                font-size: 30px;
-
- }
-
-                span{
-                    font-size: inherit;
-                    color: #9F52F2;
-                }
-                .ityped-cursor {
-                    animation: blink 1s infinite;
-                }
-                @keyframes blink {
-                    50%{
-                        opacity: 1;
-                    }
-                    100% {
-                        opacity: 0;
-                    }
-                  }
-                  @keyframes arrowBlink {
-                    100%{
-                    opacity: 0;
-                    }
-                } */

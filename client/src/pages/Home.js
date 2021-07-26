@@ -1,31 +1,21 @@
 import React from "react";
-// import { init } from "ityped";
-// import { useEffect, useRef } from "react";
+
+
 import { Link } from "react-router-dom"
 
-
-
-
 const Home = () => {
-
-  // const textRef = useRef();
-
-  // useEffect(()=> {
-  //     init(textRef.current, {
-  //         backDelay: 1500,
-  //         backSpeed: 60,
-  //         showCurser: true,
-  //         strings: ["Welcome to VIP sEATs"]
-  //     })
-  //   },[])
-
   return (
-    <div className="container">
+    <div id='link' className="container">
       
-      <Link exact to="/itemsAll">Go to all items</Link>
-      {/* <h3 id="hometext"><span ref={textRef}></span></h3> */}
+      <Link exact to="/itemsAll">Checkout our Menu</Link>
+      <div>
+        <h3 id='home' >
+        Welcome to your VIP sEATs! Order your food, drinks, and merchandise from the comfort of your seat without missing a single moment of the game. Please sign in and select your seat at the top of the page.
+        </h3>
+      </div>
       
     </div>
+
   );
 };
 
