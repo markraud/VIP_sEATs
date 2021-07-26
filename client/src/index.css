@@ -11,8 +11,6 @@
 
 * {
   box-sizing: border-box;
-  
- 
 }
 nav {
   margin-top: 15px;
@@ -27,11 +25,11 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Karla", sans-serif;
+  font-family: Impact, "Arial Narrow", sans-serif;
   font-weight: 400;
   line-height: 1.5;
   font-size: 16px;
-  color: var(--dark)
+  color: var(--dark);
 }
 
 h1,
@@ -40,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Rubik", sans-serif;
+  font-family: Impact, "Arial Narrow", sans-serif;
   font-weight: 500;
   margin: 15px 0;
   line-height: 1.25;
@@ -74,7 +72,7 @@ h6 {
 p {
   font-size: 1.1rem;
   margin-top: 0;
-  color: black
+  color: black;
 }
 
 a {
@@ -82,7 +80,6 @@ a {
   text-decoration: none;
   font-weight: bold;
   margin-left: 15px;
-  
 }
 
 a:hover {
@@ -96,8 +93,7 @@ header {
 
 header a {
   /* color: var(--light); */
-  color: var(--light)
-  ;
+  color: var(--light);
 }
 
 #backgroundImage {
@@ -129,8 +125,7 @@ button[disabled] {
 
 nav {
   margin-top: 15px;
-  width: 100%
-  
+  width: 100%;
 }
 img {
   max-width: 100%;
@@ -164,7 +159,6 @@ input:focus {
   border: none;
 }
 
-
 .container {
   width: 85%;
   max-width: 1200px;
@@ -173,7 +167,7 @@ input:focus {
 }
 
 .logo {
-  font-family: 'Zen Tokyo Zoo', cursive;
+  font-family: "Zen Tokyo Zoo", cursive;
 }
 
 .flex-row {
