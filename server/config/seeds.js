@@ -23,7 +23,7 @@ db.once('open', async () => {
         'Thick and juicy frank on a bun. Relish, ketchup, and mustard available in packets.',
       image: 'hotdog.jpg',
       category: categories[0]._id,
-      price: 6.50,
+      price: 6.59,
       quantity: 500
     },
     {
@@ -50,7 +50,7 @@ db.once('open', async () => {
         '100% beef patty on a sesame bun with all the toppings.',
       image: 'burger.jpg',
       category: categories[0]._id,
-      price: 5.50,
+      price: 5.59,
       quantity: 500
     },
     {
@@ -68,7 +68,7 @@ db.once('open', async () => {
       description:
         'The ultimate refreshing carbonated soft drink manufactured by the Coca-Cola Company with only 140 calories per can.',
       image: 'CocaCola.jpg',
-      price: 4.50,
+      price: 4.59,
       quantity: 20
     },
     {
@@ -77,7 +77,7 @@ db.once('open', async () => {
       description:
         'The perfect go to drink that offers the same great refreshing taste of Coca Cola with no sugar and no calories.',
       image: 'dietcoke.jpg',
-      price: 4.50,
+      price: 4.59,
       quantity: 50
     },
     {
@@ -86,7 +86,7 @@ db.once('open', async () => {
       description:
         'Lemon-lime carbonated drink with a crisp taste making it the ultimate refreshment with only 192 calories per can.',
       image: 'sprite.jpg',
-      price: 4.50,
+      price: 4.59,
       quantity: 100
     },
     {
@@ -95,7 +95,7 @@ db.once('open', async () => {
       description:
         'Plain old fashion refreshing H20. Same great taste with no calories!',
       image: 'bottlewater.jpg',
-      price: 4.00,
+      price: 4.99,
       quantity: 100
     },
     {
@@ -122,7 +122,7 @@ db.once('open', async () => {
       description:
         'Rich, Buttery Goodness! Popcorn with the traditional butter flavor.',
       image: 'popcorn.jpg',
-      price: 8.00,
+      price: 8.99,
       quantity: 100
     },
     {
@@ -131,7 +131,7 @@ db.once('open', async () => {
       description:
         'One bite of these puffy clouds of sugar floss, assorted cotton candy, will have your taste buds floating on cloud nine!  Available in pink or blue.',
       image: 'cottoncandy.jpg',
-      price: 4.50,
+      price: 4.59,
       quantity: 100
     },
     {
@@ -140,7 +140,7 @@ db.once('open', async () => {
       description:
         'Enjoy a rich, sweet and creamy frozen ice cream.  3 delicious flavors to choose from...Vanilla, Chocolate and Strawberry.  Available in sugar and waffle cones or a 10 ounce bowl.',
       image: 'icecream.jpg',
-      price: 4.50,
+      price: 4.59,
       quantity: 100
     },
     {
@@ -157,7 +157,7 @@ db.once('open', async () => {
       description:
         'Show the visiting team who is Number 1 with this Colorado Rockies 16-inch foam hand! Our foam hands are just what you need to get you pumped up and cheering for your team.',
       image: 'foamfinger.jpg',
-      price: 15.00,
+      price: 15.99,
       quantity: 1000
     },
     {
