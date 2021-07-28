@@ -24,6 +24,8 @@ function Detail() {
 
   const { products, cart } = state;
 
+
+
   useEffect(() => {
     // already in global store
     if (products.length) {
