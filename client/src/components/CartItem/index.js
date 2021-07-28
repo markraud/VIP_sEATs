@@ -35,7 +35,7 @@ const CartItem = ({ item }) => {
 
     }
   }
-
+console.log(item.price)
   return (
     <div className="flex-row">
       <div>
