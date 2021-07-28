@@ -121,7 +121,7 @@ db.once('open', async () => {
       category: categories[3]._id,
       description:
         'Rich, Buttery Goodness! Popcorn with the traditional butter flavor.',
-      image: 'Popcorn.jpg',
+      image: 'popcorn.jpg',
       price: 8.99,
       quantity: 100
     },
