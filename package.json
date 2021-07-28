@@ -17,6 +17,7 @@
     "concurrently": "^5.1.0"
   },
   "dependencies": {
-    "ityped": "^1.0.3"
+    "ityped": "^1.0.3",
+    "react-typical": "^0.1.3"
   }
 }
