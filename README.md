@@ -10,9 +10,10 @@
 2. [Description](#Description)
 3. [Installation](#Installation)
 4. [Technologies](#Technologies)
+5. [Usernames](#Usernames)
 5. [Collaboration](#Collaboration)
 6. [Steps](#Steps)
-7. [Walkthrough](#Screenshot)
+7. [Screenshot](#Screenshot)
 
 # Description
 
@@ -32,6 +33,13 @@
 
 The site uses Javascript, Node,js, Inquirer, Express, MYSQL, Mongo,Webpack,Bootstrap, React
 
+# GitHub Usernames 
+- ashleykohladler
+- jfmfire
+- markraud
+- melElson
+- janeeart
+
 # Collaboration
 
 - Please provide comments on any changes
@@ -47,9 +55,4 @@ The site uses Javascript, Node,js, Inquirer, Express, MYSQL, Mongo,Webpack,Boots
 - The user is presented with menu tabs that allow user to select Section, Row, and Seat number.
 - When user clicks on shopping cart they are able to updated the quantity of producst, view items in cart and verify seat location.
 
-# Screenshot
-
-![Changed HTML](./images/vipseats.jpg)
-![Changed HTML](./images/loggedin.jpg)
-![Changed HTML](./images/food.jpg)
-![Changed HTML](./images/checkout.jpg)
+![Demo of README](assests/screenshot.png)
