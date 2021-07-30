@@ -121,7 +121,7 @@ db.once('open', async () => {
       category: categories[3]._id,
       description:
         'Rich, Buttery Goodness! Popcorn with the traditional butter flavor.',
-      image: 'popcorn.jpg',
+      image: 'popcorn.png',
       price: 8.99,
       quantity: 100
     },
@@ -174,7 +174,7 @@ db.once('open', async () => {
       category: categories[4]._id,
       description:
         'Colorado Rockies Fanatics Authentic Baseball Cube Logo Display Case.',
-      image: 'baseball.png',
+      image: 'baseball2.jpeg',
       price: 17.99,
       quantity: 600
     }
